@@ -115,7 +115,7 @@ export default function Main() {
               ? "hover:bg-darkFont hover:text-dark "
               : " hover:bg-lightFont hover:text-light "
           }`}
-          href="/CV_Muhamad_Agung_Gumelar_Terbaru.pdf"
+          href="/CV_Muhamad Agung Gumelar_Terbaru.pdf"
           download
         >
           Download CV
