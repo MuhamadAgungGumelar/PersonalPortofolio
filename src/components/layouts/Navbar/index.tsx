@@ -26,10 +26,10 @@ export default function Navbar() {
   useEffect(() => {
     if (isDarkMode) {
       document.body.classList.add("dark");
-      console.log("Dark mode enabled");
+      //console.log("Dark mode enabled");
     } else {
       document.body.classList.remove("dark");
-      console.log("Dark mode disabled");
+      //console.log("Dark mode disabled");
     }
   }, [isDarkMode]);
 

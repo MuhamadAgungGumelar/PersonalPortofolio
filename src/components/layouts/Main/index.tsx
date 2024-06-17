@@ -92,7 +92,7 @@ export default function Main() {
         ) : (
           <>
             <p className="font-light tracking-wide text-lg md:text-3xl lg:pr-72">
-              I am Muhamad Agung Gumelar a fresh graduate with a Bachelor's
+              I am Muhamad Agung Gumelar a fresh graduate with a {`Bachelor'`}s
               degree in Electrical Engineering from the Indonesian University of
               Education (UPI), specializing in Telecommunication Engineering. My
               experience includes active involvement in the Electrical Student

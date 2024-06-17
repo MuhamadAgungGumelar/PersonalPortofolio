@@ -12,7 +12,7 @@ export const themeSlice = createSlice({
     toggleTheme: (state) => {
       state.isDarkMode = !state.isDarkMode;
       if (typeof window !== "undefined") {
-        localStorage.setItem("isDarkMode", state.isDarkMode);
+        localStorage.setItem("isDarkMode", JSON.stringify(state.isDarkMode));
       }
     },
     setDarkMode: (state, action: PayloadAction<boolean>) => {

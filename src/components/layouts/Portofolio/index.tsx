@@ -45,10 +45,11 @@ export default function Portofolio() {
               mobile="portofolio-1-mobile"
               desktop="portofolio-1-desktop"
               title="Graphical User Interface (GUI) Remote Operation Vehichle (ROV) Program using MQTT and Python Desktop Application"
-              description="Graphical User Interface (GUI) desktop program integrated with
-                Remote Operation Vehichle (ROV) to monitor and detect underwater
-                cable leaks based on the OpenCV desktop application and the MQTT
-                protocol"
+              description={
+                isLocale === "en"
+                  ? `Graphical User Interface (GUI) desktop program integrated with Remote Operation Vehichle (ROV) to monitor and detect underwater cable leaks based on the OpenCV desktop application and the MQTT protocol`
+                  : `Program desktop Graphical User Interface (GUI) yang terintegrasi dengan Remote Operation Vehichle (ROV) untuk memantau dan mendeteksi kebocoran kabel bawah air berdasarkan aplikasi desktop OpenCV dan protokol MQTT`
+              }
               image={["/ROV1.png", "/ROV2.png"]}
               alt={["ROV1", "ROV2"]}
               tech={["Python", "MQTT", "OpenCV", "PYQT"]}
@@ -63,7 +64,11 @@ export default function Portofolio() {
               mobile="portofolio-2-mobile"
               desktop="portofolio-2-desktop"
               title="Lung Disease Detection System Web Application"
-              description="Lung Disease Detection System Using Thorax X-Ray Image With Convolutional Neural Network (CNN) Algorithm And Web Application Based On Deep Hybrid Learning (DHL)"
+              description={
+                isLocale === "en"
+                  ? "Lung Disease Detection System Using Thorax X-Ray Image With Convolutional Neural Network (CNN) Algorithm And Web Application Based On Deep Hybrid Learning (DHL)"
+                  : "Sistem Deteksi Penyakit Paru Menggunakan Citra Sinar X Thorax Dengan Algoritma Convolutional Neural Network (CNN) Dan Aplikasi Web Berbasis Deep Hybrid Learning (DHL)"
+              }
               image={["/LungDisease1.png", "/LungDisease2.png"]}
               alt={["LungDisease1", "LungDisease2"]}
               githubLink="https://github.com/MuhamadAgungGumelar/project_skripsi_fix"
@@ -93,7 +98,11 @@ export default function Portofolio() {
               mobile="portofolio-3-mobile"
               desktop="portofolio-3-desktop"
               title="Reimbursement Web Application"
-              description="Web Application used by employee to reimburse expenses based on"
+              description={
+                isLocale === "en"
+                  ? "Reimbursement Web Application used by employee to reimburse  based on expenses"
+                  : "Aplikasi Web Reimbursement yang digunakan oleh karyawan untuk mengganti biaya berdasarkan pengeluaran"
+              }
               image={["/Reimbursemen1.png", "/Reimbursemen2.png"]}
               alt={["Reimbursement1", "Reimbursement2"]}
               githubLink="https://github.com/MuhamadAgungGumelar/ReimbursementAPI"
@@ -109,7 +118,11 @@ export default function Portofolio() {
               mobile="portofolio-4-mobile"
               desktop="portofolio-4-desktop"
               title="E-Warung Web Application"
-              description="E-Warung is a simple e-commerce web application based on Laravel"
+              description={
+                isLocale === "en"
+                  ? "E-Warung is a simple Laravel-based e-commerce web application designed for small business traders such as small shops"
+                  : "E-Warung adalah aplikasi web e-commerce sederhana berbasis Laravel yang diperuntukan untuk para pedagang UMKM seperti warung kecil"
+              }
               image={["/E-Warung1.png", "/E-Warung2.png"]}
               alt={["E-Warung1", "E-Warung2"]}
               githubLink="https://github.com/MuhamadAgungGumelar/064-Muhamad-Agung-Gumelar"

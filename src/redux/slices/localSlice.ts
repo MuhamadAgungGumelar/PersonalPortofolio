@@ -8,7 +8,7 @@ export const localSlice = createSlice({
   name: "local",
   initialState,
   reducers: {
-    setLocale: (state, action) => {
+    setLocale: (state) => {
       const newLocale = state.isLocale === "id" ? "en" : "id";
       localStorage.setItem("locale", newLocale);
       state.isLocale = newLocale;
